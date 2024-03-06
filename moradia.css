@@ -63,19 +63,22 @@ input[type=radio]{
     width: 27rem;
 }
 
+#title{
+    text-align: center;
+}
+
 .output{
     margin-top: 2rem;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 32rem;
+    height: 38rem;
     width: 25rem;
     border-radius: 10px;
 }
 
-#q1case, #q1case2, #q2case, #q3case, #q4case, #q5case, #q6case, #cpfrg{
+#q1case, #q1case2, #q2case, #q3case, #q4case, #q5case, #q6case, #cpfrg, #aviso{
     display: none;
     text-align: center;
     margin-right: 1rem;
@@ -124,7 +127,7 @@ input[type=radio]{
     }
 
     .output{
-        height: 34rem;
+        height: 42rem;
         width: 17rem;
     }
 }

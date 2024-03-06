@@ -7,6 +7,7 @@ function myFunction(){
         //alert("Anexar o CONTRACHEQUE do mês de fevereiro/2024");
         document.getElementById("q1case").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
+        document.getElementById("aviso").style.display = "flex";
         
     }
 
@@ -18,6 +19,7 @@ function myFunction(){
         //alert("Anexar a DECLARAÇÃO DE ATIVIDADE INFORMAL.");
         document.getElementById("q1case2").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
+        document.getElementById("aviso").style.display = "flex";
     }
 
     else{
@@ -28,6 +30,7 @@ function myFunction(){
         //alert("Anexar o Extrato de recebimento do benefício do INSS.");
         document.getElementById("q2case").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
+        document.getElementById("aviso").style.display = "flex";
     }
 
     else{
@@ -38,6 +41,7 @@ function myFunction(){
         //alert("Anexar a DECLARAÇÃO DE QUE NÃO APRESENTA RENDA.");
         document.getElementById("q3case").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
+        document.getElementById("aviso").style.display = "flex";
     }
 
     else{
@@ -48,6 +52,7 @@ function myFunction(){
         //alert("Anexar o COMPROVANTE DE RECEBIMENTO COM NOME E VALOR.");
         document.getElementById("q4case").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
+        document.getElementById("aviso").style.display = "flex";
     }
 
     else{
@@ -58,6 +63,7 @@ function myFunction(){
 
         document.getElementById("q5case").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
+        document.getElementById("aviso").style.display = "flex";
     }
 
     else{

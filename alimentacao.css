@@ -54,6 +54,10 @@ input[type=radio]{
     gap: 1rem;
 }
 
+#title{
+    text-align: center;
+}
+
 
 .answers{
     background-color: rgb(255, 255, 255);
@@ -68,13 +72,12 @@ input[type=radio]{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 27rem;
+    height: 35rem;
     width: 25rem;
     border-radius: 10px;
 }
 
-#q1case, #q1case2, #q2case, #q3case, #q4case, #q5case, #cpfrg{
+#q1case, #q1case2, #q2case, #q3case, #q4case, #q5case, #cpfrg, #aviso{
     display: none;
     text-align: center;
     margin-right: 1rem;
@@ -122,7 +125,7 @@ input[type=radio]{
     }
 
     .output{
-        height: 31rem;
+        height: 39rem;
         width: 17rem;
     }
 }

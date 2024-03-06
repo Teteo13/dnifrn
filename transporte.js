@@ -7,6 +7,7 @@ function myFunction(){
         //alert("Anexar o CONTRACHEQUE do mês de fevereiro/2024");
         document.getElementById("q1case").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
+        document.getElementById("aviso").style.display = "flex";
         
     }
 
