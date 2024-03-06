@@ -129,7 +129,6 @@ input[type=radio]{
     }
 
     .output{
-        height: 45rem;
         width: 17rem;
     }
 }
