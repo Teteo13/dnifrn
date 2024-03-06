@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DN - Transporte</title>
+    <link rel="stylesheet" href="transporte.css">
+</head>
+<body>
+    <script src="transporte.js"></script>
+
+    <div class="header">
+        <a href="index.html" id="voltar">Voltar</a>
+    </div>
+
+    <div class="container">
+
+        <svg id="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#0A63A5" d="M37.9,-67.2C49.7,-58.9,60.2,-49.9,66.9,-38.5C73.6,-27.2,76.5,-13.6,78,0.9C79.5,15.3,79.5,30.6,72.6,41.6C65.7,52.6,51.8,59.2,38.6,64.7C25.3,70.2,12.7,74.5,-1.2,76.7C-15.2,78.8,-30.3,78.8,-42.1,72.5C-53.9,66.1,-62.2,53.4,-70.4,40.3C-78.6,27.2,-86.6,13.6,-87,-0.3C-87.5,-14.1,-80.5,-28.3,-71.7,-40.4C-63,-52.5,-52.5,-62.7,-40.3,-70.7C-28,-78.7,-14,-84.6,-0.5,-83.8C13.1,-83,26.2,-75.5,37.9,-67.2Z" transform="translate(100 100)" />
+        </svg>
+
+        <h1>PROGRAMA AUXÍLIO TRANSPORTE</h1>
+
+        <div class="questions">
+
+            <div class="answers">
+                <p>Seus pais OU responsáveis trabalham COM carteira assinada? </p>
+                <input type="radio" name="q1" id="q1y" value="q1" required> Sim<br>
+                <input type="radio" name="q1" id="q1n"> Não<br>
+            </div>
+                
+
+            <div class="answers">
+                <p>Seus pais são APOSENTADOS/PENSIONISTAS OU algum membro da família recebe
+                    o Benefício de Prestação Continuada - BPC?</p>
+                <input type="radio" name="q2" id="q2y"> Sim<br>
+                <input type="radio" name="q2" id="q2n"> Não<br>
+            </div>
+
+
+            <div class="answers">
+                <p>Algum membro da família (incluindo você) tem 18 anos ou mais e não trabalha?</p>
+                <input type="radio" name="q3" id="q3y"> Sim<br>
+                <input type="radio" name="q3" id="q3n"> Não<br>
+            </div>
+
+
+            <div class="answers">
+                <p>É beneficiário do BOLSA FAMÍLIA?</p>
+                <input type="radio" name="q4" id="q4y"> Sim<br>
+                <input type="radio" name="q4" id="q4n"> Não<br>
+            </div>
+
+            <div class="answers">
+                <p>Você recebe pensão alimentícia?</p>
+                <input type="radio" name="q5" id="q5y"> Sim<br>
+                <input type="radio" name="q5" id="q5n"> Não<br>
+            </div>
+
+
+            <div class="answers">
+                <p>Você tem gasto com TRANSPORTE?</p>
+                <input type="radio" name="q6" id="q6y"> Sim<br>
+                <input type="radio" name="q6" id="q6n"> Não<br>
+            </div>
+
+
+
+            
+
+
+            <hr>
+            
+        </div>
+
+        <button type="submit" onclick="myFunction();return false" id="submit">Enviar</button>
+
+        
+
+
+        <div class="output">
+            <h3 id="title">O que anexar:</h3>
+            <p id="cpfrg">Anexar RG, CPF e Comprovante de Residência</p>
+            <p id="q1case">Anexar o CONTRACHEQUE do mês de fevereiro/2024</p>
+            <p id="q1case2">Anexar a DECLARAÇÃO DE ATIVIDADE INFORMAL</p>
+            <p id="q2case">Anexar o Extrato de recebimento do benefício do INSS.</p>
+            <p id="q3case">Anexar a DECLARAÇÃO DE QUE NÃO APRESENTA RENDA.</p>
+            <p id="q4case">Anexar o COMPROVANTE DE RECEBIMENTO COM NOME E VALOR.</p>
+            <p id="q5case">Anexar a DECLARAÇÃO DE PENSÃO ALIMENTÍCIA</p>
+            <p id="q6case">Anexar a declaração de GASTOS COM TRANSPORTE.</p>
+        </div>
+
+        
+
+        
+    </div>
+</body>
+</html>
