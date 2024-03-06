@@ -60,9 +60,13 @@ input[type=radio]{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 37rem;
     width: 25rem;
     border-radius: 10px;
+}
+
+#maintitle{
+    border-radius: 15px;
+    background-color: rgb(19,147,138);
 }
 
 #q1case, #q1case2, #q2case, #q3case, #q4case, #q5case, #cpfrg, #aviso{
