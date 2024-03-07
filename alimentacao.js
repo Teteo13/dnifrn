@@ -13,6 +13,8 @@ function myFunction(){
 
     else{
         document.getElementById("q1case").style.display = "none";
+        document.getElementById("cpfrg").style.display = "none";
+        document.getElementById("aviso").style.display = "none";
     }
 
     if(document.getElementById("q1n").checked){
@@ -24,6 +26,9 @@ function myFunction(){
 
     else{
         document.getElementById("q1case2").style.display = "none";
+        document.getElementById("cpfrg").style.display = "none";
+        document.getElementById("aviso").style.display = "none";
+
     }
 
     if(document.getElementById("q2y").checked){
@@ -35,6 +40,8 @@ function myFunction(){
 
     else{
         document.getElementById("q2case").style.display = "none";
+        document.getElementById("cpfrg").style.display = "none";
+        document.getElementById("aviso").style.display = "none";
     }
 
     if(document.getElementById("q3y").checked){
@@ -46,6 +53,8 @@ function myFunction(){
 
     else{
         document.getElementById("q3case").style.display = "none";
+        document.getElementById("cpfrg").style.display = "none";
+        document.getElementById("aviso").style.display = "none";
     }
 
     if(document.getElementById("q4y").checked){
