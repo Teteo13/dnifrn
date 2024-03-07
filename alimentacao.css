@@ -2,6 +2,10 @@
     font-family: Arial;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(236, 230, 228);
 }
