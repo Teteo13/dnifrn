@@ -2,7 +2,8 @@
 
 
 function myFunction(){
-
+    document.body.scrollTop = 9999999999999999;
+    document.documentElement.scrollTop = 99999999999999999;
     
 
     if(document.getElementById("q1y").checked){
@@ -10,8 +11,6 @@ function myFunction(){
         document.getElementById("q1case").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
         document.getElementById("aviso").style.display = "flex";
-        document.body.scrollTop = 9999999999999999;
-        document.documentElement.scrollTop = 99999999999999999;
         
     }
 
@@ -25,6 +24,7 @@ function myFunction(){
         document.getElementById("q1case2").style.display = "flex";
         document.getElementById("cpfrg").style.display = "flex";
         document.getElementById("aviso").style.display = "flex";
+        
     }
 
     else{
