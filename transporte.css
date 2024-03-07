@@ -97,6 +97,7 @@ input[type=radio]{
 
 #submit{
     padding: 1rem;
+    margin-top: 4rem;
     border-radius: 50px;
     text-align: center;
     background-color: white;
